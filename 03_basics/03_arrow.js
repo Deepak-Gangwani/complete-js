@@ -20,7 +20,25 @@ function tea(){
 
 tea()
 
-const chai =function(){
+const tea =function(){
     let username="Deepak"
     console.log(this.username);
 }
+
+// tea()
+
+// const addTwo=(n1,n2)=>{
+//     return n1+n2
+// }
+
+// const addTwo=(n1,n2)=>n1+n2
+
+// const addTwo=(n1,n2)=>(n1+n2)
+
+const addTwo=(n1,n2)=>({username:"deepak"})
+
+console.log(addTwo(3,4))
+
+const myArray=[2,5,3,7,8]
+
+myArray.forEach()
